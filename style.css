@@ -1,0 +1,94 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+	background-image: url(giphy.gif);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	display: grid;
+    place-items: center;
+    overflow: hidden;
+  }
+.container{
+    width: 30em;
+	margin: 4em;
+}
+.head__section img{
+    display:block;
+    margin: 0 auto;
+    height: 8em;
+    width: 8em;
+    object-fit: cover;
+    border-radius: 19px;
+    user-select: none;
+}
+
+.social__links ul li{
+    width: 100%;
+    margin: 1.2rem 0;
+    padding: 0.4rem 0.8rem;
+    background: rgba(124, 124, 124, 0.773);
+    backdrop-filter: blur( 0px );
+    border-radius: 5px;
+    transform-style: preserve-3d;
+    perspective: 500px;
+    box-shadow: 0 0 0.8rem  rgba(4, 0, 0, 0.725);
+    user-select: none;
+}
+.js-tilt-glare{
+    border-radius: 5px;
+}
+.social__links ul li a{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: black;
+    font-size: 1rem;
+
+}
+.social__links ul li a i{
+    text-align: center;
+    line-height: 4rem;
+	padding: 10px 20px;
+    font-size: 1.8rem;
+    text-shadow: 2px 2px 12px rgba(0, 0, 0, 0.5);
+    transform: scale(1.4) translateZ(50px);
+    transition: 0.25s;
+}
+.social__links ul li a span{
+    line-height: 1.4rem;
+}
+
+.social__links ul .github:hover{
+    background: rgb(46, 45, 45);
+}
+.social__links ul .discord:hover{
+    background: rgb(0, 0, 113);
+} 
+.social__links ul .tiktok:hover{
+    background: rgb(101, 1, 91);
+}
+
+.social__links ul li span h2{
+    font-size: 23px;
+}
+
+.social__links ul li span p{
+    font-size: 18px;
+    margin: 6px; !important
+}
+
+@media only screen and (max-width: 549px) {
+    .container{
+        width: 88vw;
+    }
+  }
