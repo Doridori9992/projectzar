@@ -84,7 +84,7 @@ body{
 
 .social__links ul li span p{
     font-size: 18px;
-    margin: 6px; !important
+    margin: 6px !important;
 }
 
 @media only screen and (max-width: 549px) {
